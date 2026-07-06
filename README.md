@@ -17,3 +17,10 @@ Diseñar una arquitectura de software capaz de gestionar distintos canales de en
 * **`Notificacion`**: Clase abstracta base.
 * **`Email` / `Sms`**: Implementaciones concretas con atributos específicos (`asunto` y `numeroTelefono` respectivamente).
 * **`Programa`**: Orquestador principal que gestiona la colección de notificaciones.
+
+
+## 👥 Gestión de Personas con ArrayList
+Implementación de un modelo de datos robusto con validación de estado:
+* **Integridad de datos:** Los métodos *setters* incluyen validación de datos (lanzando excepciones si los valores no cumplen las reglas de negocio), evitando estados inconsistentes del objeto.
+* **Manejo de Colecciones:** Uso eficiente de `ArrayList<Persona>` para almacenamiento dinámico de objetos en tiempo de ejecución.
+* **Control de flujo:** Captura de excepciones en el `Main` para asegurar una experiencia de usuario fluida y evitar el cierre inesperado del programa ante entradas de datos erróneas.
